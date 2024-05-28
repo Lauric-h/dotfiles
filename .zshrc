@@ -136,6 +136,12 @@ export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
 # Zoxide enhance cd - keep in last
 eval "$(zoxide init zsh)"
 
+# MYSQL
 export PATH="/opt/homebrew/opt/mysql-client@5.7/bin:$PATH"
+
+# PHP
 export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
 export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
+
+# NVIM (LVIM)
+export PATH=/Users/mac-LHELFF06/.local/bin:$PATH
