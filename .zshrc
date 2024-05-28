@@ -120,6 +120,7 @@ alias g-am="git commit -am"
 alias gp="git push"
 alias gc="git checkout"
 alias gcb="git checkout -b"
+alias vim="lvim"
 
 # GCLOUD
 # The next line updates PATH for the Google Cloud SDK.
