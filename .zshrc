@@ -67,4 +67,4 @@ export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
 export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
 
 # NVIM (LVIM)
-export PATH=/Users/mac-LHELFF06/.local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
