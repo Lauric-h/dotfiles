@@ -17,3 +17,9 @@ Install LVIM
 LV_BRANCH='release-1.4/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.4/neovim-0.9/utils/installer/install.sh)
 ```
 
+Manually activate iCloud and AppleID
+Manuall remap CMD+q to something else
+
+Install php-redis
+```pecl install redis```
+-> Check if you have to echo something to PATH + add extension=redis.so in php.ini
