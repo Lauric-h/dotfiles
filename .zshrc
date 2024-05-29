@@ -44,6 +44,7 @@ alias vim="lvim"
 
 # ls replacement
 alias ls="eza --icons=always -F -a -1"
+alias lst="tree"
 
 # GCLOUD
 # The next line updates PATH for the Google Cloud SDK.

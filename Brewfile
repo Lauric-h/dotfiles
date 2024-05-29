@@ -19,6 +19,7 @@ cask "jetbrains-toolbox"
 brew "composer"
 brew "eza"
 brew "fzf"
+brew "git"
 brew "gnu-sed"
 brew "stow"
 brew "symfony-cli/tap/symfony-cli"
@@ -26,6 +27,7 @@ brew "tree"
 brew "zoxide"
 
 # Dev
+brew "docker"
 brew "mysql-client@5.7"
 brew "mysql@5.7", restart_service: true
 brew "neovim"
