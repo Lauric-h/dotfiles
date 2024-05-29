@@ -1,11 +1,11 @@
 # Install(wip)
 
-Install Homebrew
-Clone directory
-Install Homebrew dependencies
-Install lvim
-Stow dotfiles
-Set global gitignore
+- Install Homebrew
+- Clone directory
+- Install Homebrew dependencies
+- Install lvim
+- Stow dotfiles
+- Set global gitignore
 
 Remapping:
 - Copy LaunchAgent to Library/LaunchAgent/
