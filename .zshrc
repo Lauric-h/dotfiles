@@ -46,13 +46,7 @@ alias vim="lvim"
 alias ls="eza --icons=always -F -a -1"
 alias lst="tree"
 
-# GCLOUD
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-# --- 
+# GCLOUD# --- 
 
 # Use gnu-sed
 export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
@@ -69,3 +63,9 @@ export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
 
 # NVIM (LVIM)
 export PATH="$HOME/.local/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mac-LHELFF06/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mac-LHELFF06/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mac-LHELFF06/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mac-LHELFF06/google-cloud-sdk/completion.zsh.inc'; fi

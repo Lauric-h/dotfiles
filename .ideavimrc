@@ -139,8 +139,8 @@ nnoremap <A-n> :tabnext<CR>
 nnoremap <A-p> :tabprev<CR>
 
 " Pane navigation
-nnoremap <A-h> <C-w>h
-nnoremap <A-l> <C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
 nnoremap <A-k> <C-w>k
 nnoremap <A-j> <C-w>j
 
