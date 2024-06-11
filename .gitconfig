@@ -5,3 +5,5 @@
 	autoSetupRemote = true
 [core]
 	excludesfile = /Users/mac-LHELFF06/.global_gitignore
+[rerere]
+	enabled = true
