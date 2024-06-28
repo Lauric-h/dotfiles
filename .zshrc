@@ -58,8 +58,8 @@ eval "$(zoxide init zsh)"
 export PATH="/opt/homebrew/opt/mysql-client@5.7/bin:$PATH"
 
 # PHP
-export PATH="/opt/homebrew/opt/php@8.1/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@8.1/sbin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
 
 # NVIM (LVIM)
 export PATH="$HOME/.local/bin:$PATH"
