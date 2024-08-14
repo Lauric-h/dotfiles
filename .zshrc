@@ -24,6 +24,10 @@ export GIT_EDITOR=lvim
 # PLUGINS
 plugins=(git)
 
+# Disable verif for insecure directories
+# Should stay before source of zsh
+ZSH_DISABLE_COMPFIX=true
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -73,3 +77,4 @@ if [ -f '/Users/mac-LHELFF06/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ma
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/mac-LHELFF06/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mac-LHELFF06/google-cloud-sdk/completion.zsh.inc'; fi
+
