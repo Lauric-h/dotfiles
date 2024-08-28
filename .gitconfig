@@ -7,3 +7,5 @@
 	excludesfile = /Users/mac-LHELFF06/.global_gitignore
 [rerere]
 	enabled = true
+[init]
+	defaultBranch = main

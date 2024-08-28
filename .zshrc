@@ -49,6 +49,9 @@ alias gp="git push"
 alias gc="git checkout"
 alias gcb="git checkout -b"
 alias vim="lvim"
+alias test="php -d memory_limit=-1 vendor/bin/phpunit"
+alias arkitect="php vendor/bin/phparkitect check -g"
+alias mitmstart="mitmproxy --mode upstream:http://127.0.0.1:7080 --ssl-insecure"
 
 # ls replacement
 alias ls="eza --icons=always -F -a -1"
