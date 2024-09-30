@@ -49,7 +49,7 @@ alias gp="git push"
 alias gc="git checkout"
 alias gcb="git checkout -b"
 alias vim="lvim"
-alias mtest="php -d memory_limit=-1 vendor/bin/phpunit"
+alias test="php -d memory_limit=-1 vendor/bin/phpunit"
 alias arkitect="php vendor/bin/phparkitect check -g"
 alias mitmstart="mitmproxy --mode upstream:http://127.0.0.1:7080 --ssl-insecure"
 
@@ -69,8 +69,8 @@ eval "$(zoxide init zsh)"
 export PATH="/opt/homebrew/opt/mysql-client@5.7/bin:$PATH"
 
 # PHP
-export PATH="/opt/homebrew/opt/php@8.2/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@8.2/sbin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.3/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.3/sbin:$PATH"
 
 # NVIM (LVIM)
 export PATH="$HOME/.local/bin:$PATH"
