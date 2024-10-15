@@ -34,21 +34,30 @@ source $ZSH/oh-my-zsh.sh
 ## To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# Alias
+# ALIAS
 alias cd="z"
+
+# Symfony
 alias sf="symfony"
 alias sfc="symfony console"
 alias sfproxy="symfony local:proxy:start"
 alias sflog="symfony server:log"
 alias sfserve="symfony serve -d"
 alias sfstop="symfony server:stop"
+
+# Git
 alias gs="git status"
 alias gpl="git pull"
 alias g-am="git commit -am"
 alias gp="git push"
 alias gc="git checkout"
 alias gcb="git checkout -b"
+alias shb="git rev-parse --abbrev-ref HEAD" # Display name of current branch
+
+# Vim
 alias vim="lvim"
+
+# Misc
 alias mtest="php -d memory_limit=-1 vendor/bin/phpunit"
 alias arkitect="php vendor/bin/phparkitect check -g"
 alias mitmstart="mitmproxy --mode upstream:http://127.0.0.1:7080 --ssl-insecure"
