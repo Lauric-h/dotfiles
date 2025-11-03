@@ -68,13 +68,33 @@
     - Copy config from dotfiles
     - Install font
 5. Install GUI apps with homebrew
+    - Chrome
+    - Firefox
+    - Slack
+    - HeyNotes
+    - Whatsapp
+    - Bruno
+    - Raycast
 6. Install ZSH/OMZ/POWERLEVEL10K
     - Copy config files
 7. Install CLI apps with homebrew
+    - git
+    - ripgrep
+    - zoxide
+    - eza
+    - fzf
+    - gnu-sed
+    - tree
+    - bat
+    - fd
+    - opencode
+    - lazygit
 8. Install NVIM
     - Copy conf directory
+    - Install plugins
 9. Install TMUX
     - Copy conf file
+    - Install plugings
 10. Install PHP
     - Composer
     - PHP + extensions
