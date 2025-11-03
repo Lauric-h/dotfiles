@@ -22,7 +22,10 @@ export EDITOR=lvim
 export GIT_EDITOR=lvim
 
 # PLUGINS
-plugins=(git)
+plugins=(
+  git
+  zsh-autosuggestions
+)
 
 # Disable verif for insecure directories
 # Should stay before source of zsh
@@ -66,7 +69,15 @@ alias mitmstart="mitmproxy --mode upstream:http://127.0.0.1:7080 --ssl-insecure"
 alias ls="eza --icons=always -F -a -1"
 alias lst="tree"
 
+# cat replacement
+alias cat="bat"
+
+# opencode
+alias oc="NODE_EXTRA_CA_CERTS=/Users/mac-LHELFF06/zscaler-ca.pem opencode"
+
 # GCLOUD# --- 
+
+DISABLE_AUTO_TITLE="true"
 
 # Use gnu-sed
 export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
@@ -74,12 +85,15 @@ export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
 # Zoxide enhance cd - keep in last
 eval "$(zoxide init zsh)"
 
+# fzf (fuzzy find)
+source <(fzf --zsh)
+
 # MYSQL
 export PATH="/opt/homebrew/opt/mysql-client@5.7/bin:$PATH"
 
 # PHP
-export PATH="/opt/homebrew/opt/php@8.3/bin:$PATH"
-export PATH="/opt/homebrew/opt/php@8.3/sbin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.4/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.4/sbin:$PATH"
 
 # NVIM (LVIM)
 export PATH="$HOME/.local/bin:$PATH"
@@ -90,3 +104,4 @@ if [ -f '/Users/mac-LHELFF06/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ma
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/mac-LHELFF06/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mac-LHELFF06/google-cloud-sdk/completion.zsh.inc'; fi
 
+alias sail='bash vendor/bin/sail'

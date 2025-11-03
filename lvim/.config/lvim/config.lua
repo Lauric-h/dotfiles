@@ -8,3 +8,11 @@
 vim.opt.showtabline = 4
 vim.opt.scrolloff = 10
 vim.opt.tabstop = 4
+
+lvim.plugins = {
+  {
+    "npxbr/glow.nvim",
+    ft = {"markdown"}
+    -- run = "yay -S glow"
+  },
+}
