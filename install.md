@@ -55,13 +55,9 @@
 
 ## Steps
 1. Connect to AppleId + iCloud
-2. Setup macOs settings
-    - Remap CMD+Q to something else
+2. Setup basic macOs settings
     - Remap CapsLock to CTRL
-    - Disable Spotlight
     - Keyboard speed
-    - Dock size, hide, apps
-    - Clean up Finder + pin directories
     - Change touchpad direction + speed
 3. Install Homebrew
 4. Install Wezterm
@@ -112,10 +108,15 @@
     - Window management
     - Vim style navigation
     - Key to launch CMD+Space
+    - Disable Spotlight
 17. Connect to Github
     - SSH Key
     - Connect to GH
     - Clone directory
     - Install and launch project
 18. chezmoi to store dotfiles and brew dump files
+19. Improve macOs settings
+    - Dock size, hide, apps
+    - Clean up Finder + pin directories
+    - Remap CMD+Q to something else
 
