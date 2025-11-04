@@ -62,6 +62,7 @@
     - Keyboard speed
     - Dock size, hide, apps
     - Clean up Finder + pin directories
+    - Change touchpad direction + speed
 3. Install Homebrew
 4. Install Wezterm
     - Install
