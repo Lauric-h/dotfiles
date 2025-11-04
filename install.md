@@ -76,14 +76,6 @@
     - Copy config files
 7. Install CLI apps with homebrew
     - git
-    - ripgrep
-    - zoxide
-    - eza
-    - fzf
-    - gnu-sed
-    - tree
-    - bat
-    - fd
     - opencode
     - lazygit
 8. Install NVIM
@@ -114,9 +106,18 @@
     - Connect to GH
     - Clone directory
     - Install and launch project
-18. chezmoi to store dotfiles and brew dump files
-19. Improve macOs settings
-    - Dock size, hide, apps
-    - Clean up Finder + pin directories
-    - Remap CMD+Q to something else
+18. Install CLI tools
+    - ripgrep
+    - zoxide
+    - eza
+    - fzf
+    - gnu-sed
+    - tree
+    - bat
+    - fd
+19. chezmoi to store dotfiles and brew dump files
+20. Improve macOs settings
+- Dock size, hide, apps
+- Clean up Finder + pin directories
+- Remap CMD+Q to something else
 
