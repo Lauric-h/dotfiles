@@ -86,7 +86,7 @@
     - Install plugings
 10. Install PHP
     - Composer
-    - PHP + extensions
+    - PHP + extensions (use shivammathur formulae)
     - REDIS (PECL)
     - Symfony CLI 
 11. Install MYSQL and start service
@@ -106,6 +106,8 @@
     - Connect to GH
     - Clone directory
     - Install and launch project
+    - Install Tmux plugin manager (needs to clone gh repo)
+    - Clone POWERLEVEL10K repo
 18. Install CLI tools
     - ripgrep
     - zoxide
@@ -117,7 +119,7 @@
     - fd
 19. chezmoi to store dotfiles and brew dump files
 20. Improve macOs settings
-- Dock size, hide, apps
-- Clean up Finder + pin directories
-- Remap CMD+Q to something else
+    - Dock size, hide, apps
+    - Clean up Finder + pin directories
+    - Remap CMD+Q to something else
 
