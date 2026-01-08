@@ -1,6 +1,7 @@
 # Install Todo
 
 ## Programs
+
 - Connect AppleID and iCloud
 - Chrome
 - Firefox
@@ -11,10 +12,9 @@
 - Raycast
 - Jetbrains Toolbox + PHPStorm
 
-
 ## macOs
+
 - Remap CMD+Q to something else
-- Remap CapsLock to CTRL
 - Disable Spotlight
 - Keyboard speed
 - Dock size
@@ -24,6 +24,7 @@
 - Pin directories to Finder
 
 ## Terminal
+
 - Install homebrew
 - Install git
 - Generate SSH key
@@ -35,8 +36,7 @@
 - PHP
 - PECL install REDIS
 - node
-- Yarn
-- ripgrem
+- ripgrep
 - Zoxide
 - eza
 - fzf
@@ -44,51 +44,53 @@
 - tree
 - bat
 - fd
-- Wezterm
+- Wezterm + copy config
 - ZSH/OMZ/POWERLEVEL10K + plugins
-- TMUX
+- TMUX + copy config
 - opencode
 - lazygit
 - composer
 - docker-compose
 - chezmoi
+- Hyperkey + setup hyperkey shortcuts in raycast
 
 ## Steps
+
 1. Connect to AppleId + iCloud
 2. Setup basic macOs settings
-    - Remap CapsLock to CTRL
-    - Keyboard speed
-    - Change touchpad direction + speed
+   - Remap CapsLock to CTRL
+   - Keyboard speed
+   - Change touchpad direction + speed
 3. Install Homebrew
 4. Install Wezterm
-    - Install
-    - Copy config from dotfiles
-    - Install font
+   - Install
+   - Copy config from dotfiles
+   - Install font
 5. Install GUI apps with homebrew
-    - Chrome
-    - Firefox
-    - Slack
-    - HeyNotes
-    - Whatsapp
-    - Bruno
-    - Raycast
+   - Chrome
+   - Firefox
+   - Slack
+   - HeyNotes
+   - Whatsapp
+   - Bruno
+   - Raycast
 6. Install ZSH/OMZ/POWERLEVEL10K
-    - Copy config files
+   - Copy config files
 7. Install CLI apps with homebrew
-    - git
-    - opencode
-    - lazygit
+   - git
+   - opencode
+   - lazygit
 8. Install NVIM
-    - Copy conf directory
-    - Install plugins
+   - Copy conf directory
+   - Install plugins
 9. Install TMUX
-    - Copy conf file
-    - Install plugings
+   - Copy conf file
+   - Install plugings
 10. Install PHP
     - Composer
     - PHP + extensions (use shivammathur formulae)
     - REDIS (PECL)
-    - Symfony CLI 
+    - Symfony CLI
 11. Install MYSQL and start service
 12. Install and setup Docker/Colima/Docker-Compose
 13. Install PHPStorm with Jetbrains Toolbox
@@ -122,4 +124,6 @@
     - Dock size, hide, apps
     - Clean up Finder + pin directories
     - Remap CMD+Q to something else
-
+21. Install Hyperkey
+    - Map to CapsLock
+    - Map shortcuts in raycast
