@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
 echo "🚀 Installing Homebrew packages..."
 
 # Install Brew packages
