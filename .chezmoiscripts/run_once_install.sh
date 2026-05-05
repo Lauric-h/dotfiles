@@ -17,4 +17,14 @@ echo "📦 Installing Neovim plugins..."
 # Install nvim plugins (headless)
 nvim --headless "+Lazy! sync" +qa || true
 
+# Install TPM if not present
+if [ ! -d "$HOME/.tmux/plugins/tpm" ]; then
+  git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+fi
+
+# Install tmux plugins
+tmux new-session -d
+~/.tmux/plugins/tpm/bin/install_plugins
+tmux kill-server
+
 echo "✅ Setup complete!"
