@@ -9,7 +9,6 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -77,12 +76,7 @@ ZSH_THEME=""
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-)
-source $ZSH/oh-my-zsh.sh
+plugins=()
 
 # User configuration
 
@@ -117,26 +111,12 @@ alias gcb="git checkout -b"
 alias shb="git rev-parse --abbrev-ref HEAD" # Display name of current branch
 alias gcmpl="git checkout main && git pull"
 
-# Misc
-alias mtest="php -d memory_limit=-1 vendor/bin/phpunit"
-alias arkitect="php vendor/bin/phparkitect check -g"
-alias mitmstart="mitmproxy --mode upstream:http://127.0.0.1:7080 --ssl-insecure"
-
 # ls replacement
 alias ls="eza --icons=always -F -a -1"
 alias lst="tree"
 
 # cat replacement
 alias cat="bat"
-
-# opencode
-export NODE_EXTRA_CA_CERTS=/Users/mac-LHELFF06/zscaler-ca.pem
-# alias oc="NODE_EXTRA_CA_CERTS=/Users/mac-LHELFF06/zscaler-ca.pem opencode"
-alias oc="NO_PROXY=api.githubcopilot.com,api.anthropic.com,api.openai.com opencode"
-
-# GCLOUD# --- 
-
-DISABLE_AUTO_TITLE="true"
 
 # Use gnu-sed
 export PATH=/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH
@@ -165,8 +145,15 @@ if [ -f '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mac-LHELFF06/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
-. "$HOME/.local/bin/env"
+# completion
+autoload -Uz compinit
+compinit
 
-# Starship
+# autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# starship (prompt)
 eval "$(starship init zsh)"
-POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+
+# syntax highlighting (TOUJOURS en dernier)
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
