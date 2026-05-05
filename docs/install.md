@@ -1,0 +1,129 @@
+# Install Todo
+
+## Programs
+
+- Connect AppleID and iCloud
+- Chrome
+- Firefox
+- Slack
+- HeyNotes
+- Whatsapp
+- Bruno
+- Raycast
+- Jetbrains Toolbox + PHPStorm
+
+## macOs
+
+- Remap CMD+Q to something else
+- Disable Spotlight
+- Keyboard speed
+- Dock size
+- Remove useless apps from Dock
+- Hide/Show dock
+- Cleanup finder
+- Pin directories to Finder
+
+## Terminal
+
+- Install homebrew
+- Install git
+- Generate SSH key
+- Connect to github
+- Install colima / docker
+- Install Nvim -> copy config directory
+- Install mitmproxy
+- Mysql
+- PHP
+- PECL install REDIS
+- node
+- ripgrep
+- Zoxide
+- eza
+- fzf
+- gnu-sed
+- tree
+- bat
+- fd
+- Wezterm + copy config
+- ZSH/OMZ/POWERLEVEL10K + plugins
+- TMUX + copy config
+- opencode
+- lazygit
+- composer
+- docker-compose
+- chezmoi
+- Hyperkey + setup hyperkey shortcuts in raycast
+
+## Steps
+
+1. Connect to AppleId + iCloud
+2. Setup basic macOs settings
+   - Remap CapsLock to CTRL
+   - Keyboard speed
+   - Change touchpad direction + speed
+3. Install Homebrew
+4. Install Wezterm
+   - Install
+   - Copy config from dotfiles
+   - Install font
+5. Install GUI apps with homebrew
+   - Chrome
+   - Firefox
+   - Slack
+   - HeyNotes
+   - Whatsapp
+   - Bruno
+   - Raycast
+6. Install ZSH/OMZ/POWERLEVEL10K
+   - Copy config files
+7. Install CLI apps with homebrew
+   - git
+   - opencode
+   - lazygit
+8. Install NVIM
+   - Copy conf directory
+   - Install plugins
+9. Install TMUX
+   - Copy conf file
+   - Install plugings
+10. Install PHP
+    - Composer
+    - PHP + extensions (use shivammathur formulae)
+    - REDIS (PECL)
+    - Symfony CLI
+11. Install MYSQL and start service
+12. Install and setup Docker/Colima/Docker-Compose
+13. Install PHPStorm with Jetbrains Toolbox
+    - Copy ideavim.rc file
+    - Setup theme and font
+14. Install Node / Yarn
+15. Setup aliases in .zshrc
+16. Setup Raycast
+    - Window management
+    - Vim style navigation
+    - Key to launch CMD+Space
+    - Disable Spotlight
+17. Connect to Github
+    - SSH Key
+    - Connect to GH
+    - Clone directory
+    - Install and launch project
+    - Install Tmux plugin manager (needs to clone gh repo)
+    - Clone POWERLEVEL10K repo
+18. Install CLI tools
+    - ripgrep
+    - zoxide
+    - eza
+    - fzf
+    - gnu-sed
+    - tree
+    - bat
+    - fd
+19. chezmoi to store dotfiles and brew dump files
+20. Improve macOs settings
+    - Dock size, hide, apps
+    - Clean up Finder + pin directories
+    - Remap CMD+Q to something else
+21. Install Hyperkey
+    - Map to CapsLock
+    - Map shortcuts in raycast
